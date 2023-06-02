@@ -32,7 +32,7 @@ function LoginForm() {
    
     <div className="  relative flex flex-col h-full ">
       <div
-        className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-green-900  ring-2 ring-green-600 lg:max-w-xl"
+        className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-blue-900  ring-2 ring-blue-600 lg:max-w-xl"
         style={{ marginTop: "200px" }}
       >
         <h1 className="text-3xl font-semibold text-center text-[#94a3b8] font-serif ">
@@ -51,7 +51,7 @@ function LoginForm() {
           placeholder="Adresse e-mail"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-              className="block w-full px-4 py-2 mt-2 text-green-300 bg-white border rounded-md focus:border-green-600 focus:ring-green-300focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2 text-blue-300 bg-white border rounded-md focus:border-blue-600 focus:ring-blue-300focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
           <div className="mb-2">
@@ -66,13 +66,13 @@ function LoginForm() {
               placeholder="Mot de passe"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="block w-full px-4 py-2 mt-2 text-green-300 bg-white border rounded-md focus:border-green-600 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2 text-blue-300 bg-white border rounded-md focus:border-blue-600 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
          
           <div className="mt-6">
             <button
-              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform  rounded-md hover:bg-green-300 focus:outline-none focus:bg-green-300"
+              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform  rounded-md hover:bg-green-300 focus:outline-none focus:bg-blue-300"
               style={{ background: "#a6d5cc" }}
              
             >
