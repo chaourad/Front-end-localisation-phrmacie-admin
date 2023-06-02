@@ -36,7 +36,7 @@ function LoginForm() {
         style={{ marginTop: "200px" }}
       >
         <h1 className="text-3xl font-semibold text-center text-[#94a3b8] font-serif ">
-        Connectez-vous à votre espace pharmacien
+        Connectez-vous à votre espace admin
         </h1>
         <form className="mt-6" onSubmit={handleSubmit}>
           <div className="mb-2">
