@@ -73,7 +73,7 @@ function LoginForm() {
           <div className="mt-6">
             <button
               className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform  rounded-md hover:bg-green-300 focus:outline-none focus:bg-blue-300"
-              style={{ background: "#a6d5cc" }}
+              style={{ background: "#97C9E0" }}
              
             >
               Login
